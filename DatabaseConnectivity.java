@@ -12,7 +12,7 @@ Connection conn=null;
             Class.forName("com.mysql.jdbc.Driver");
             String url="jdbc:mysql://localhost:3306/interaction_data";
             String uname="root";
-            String pass="panosmx5";
+            String pass="root";
             Connection conn=DriverManager.getConnection(url,uname,pass);
             return conn;
             
